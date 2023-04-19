@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400&display=swap');
+
+:root{
+  --bg-main: #131722;
+  --color-main:#fff;
+  --light-bg:#24baef;
+  --border-color: #949cb0;
+
+}
+
+body{
+  background-color: var(--bg-main);
+  color: var(--color-main);
+  font-family: 'Montserrat', sans-serif !important;
+}
+.brdr{
+  background-color: var(--border-color);
+  height: 1px;
+
+}
+
+nav{
+  color: var(--color-main) !important;
+
+}
+
+footer{
+  background-color : var(--bg-main)
+}
+.vote{
+  background-color : var(--light-bg)
+}
+.loding{
+  background-color:rgba(0, 0, 0, 0.9);
+  z-index: 99999;
+}
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: #FF3D00;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
